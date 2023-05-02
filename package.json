@@ -20,7 +20,7 @@
     "mig": "typeorm migration:create -n name"
   },
   "dependencies": {
-    "midway-flyway-js": "^3.0.0",
+    "@alicloud/pop-core": "^1.7.10",
     "@koa/cors": "^3.1.0",
     "@midwayjs/bootstrap": "^3.0.0",
     "@midwayjs/cache": "^3.0.0",
@@ -32,7 +32,6 @@
     "@midwayjs/typeorm": "^3.5.3",
     "@midwayjs/validate": "^3.0.0",
     "@types/cache-manager": "^3.4.0",
-    "typeorm": "^0.3.10",
     "cache-manager": "^3.4.3",
     "dayjs": "^1.10.5",
     "glob": "^7.1.7",
@@ -41,9 +40,9 @@
     "lodash": "^4.17.21",
     "log4js": "^6.3.0",
     "md5": "^2.3.0",
-    "sqlite3": "^5.1.2",
+    "midway-flyway-js": "^3.0.0",
     "svg-captcha": "^1.4.0",
-    "@alicloud/pop-core": "^1.7.10"
+    "typeorm": "^0.3.10"
   },
   "devDependencies": {
     "@midwayjs/cli": "^1.0.0",
@@ -56,14 +55,14 @@
     "cross-env": "^6.0.0",
     "jest": "^26.4.0",
     "mwts": "^1.0.5",
+    "sqlite3": "^5.1.6",
     "ts-jest": "^26.2.0",
-    "typescript": "^4.0.0",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
   },
   "engines": {
     "node": ">=12.0.0"
   },
-
   "midway-bin-clean": [
     ".vscode/.tsbuildinfo",
     "dist"
